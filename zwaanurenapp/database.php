@@ -20,4 +20,6 @@ $conn = new mysqli ($dbhost, $dbuser, $dbwachtwoord, $dbnaam,);
    // echo "De database is geconnect";
 //}
 
+// dit is een test
+
 ?>
