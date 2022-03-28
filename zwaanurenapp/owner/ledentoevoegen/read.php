@@ -22,14 +22,14 @@
 			      <th scope="col">#</th>
 			      <th scope="col">Name</th>
 			      <th scope="col">Email</th>
-			      <th scope="col">Action</th>
+			      <th scope="col">Actie</th>
 			    </tr>
 			  </thead>
 			  <tbody>
 			  <div class="link-right">
 				<a  href="index.php" id="btn" class="btn btn-success">Maak Account</a>
 				<span style="color:white;" class="space">-</span>
-				<a href="../owner.html" class="btn btn-primary">admin-panel</a>
+				<a href="../owner.html" class="btn btn-primary">Admin-panel</a>
 				<span style="color:white;" class="space">---------------------------------------</span>
 			</div>
 			  	<?php 
@@ -45,10 +45,10 @@
 			      	     class="btn btn-success">Update</a>
 
 			      	  <a href="php/delete.php?id=<?=$rows['id']?>" 
-			      	     class="btn btn-danger">Delete</a>
+			      	     class="btn btn-danger">Verwijder</a>
 
 			      	  <a href="../UrenOverzicht/test.html" 
-			      	     class="btn btn-primary">overzicht</a>
+			      	     class="btn btn-primary">Overzicht</a>
 			      </td>
 			    </tr>
 			    <?php } ?>
