@@ -46,9 +46,9 @@ if (isset($_GET['id'])) {
 		header("Location: ../index.php?error=uw password is ongeldig&$user_data");
 	}else {
 
-#|--------------------------------------------------------------------------------------------|#
-#|- gebruiker gegevens updaten die door een admin worden aangepast ---------------------------|#
-#|--------------------------------------------------------------------------------------------|#
+
+//gebruiker gegevens updaten die door een admin worden aangepast 
+
 
        $sql = "UPDATE login
                SET name='$name', email='$email', pw='$pw'
