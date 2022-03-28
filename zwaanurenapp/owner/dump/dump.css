@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+
+table {
+    background-color: black
+    
+}
+tr {
+    background-color: #252121;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    
+}
+
+.Maandag {
+    background-color: #252121;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+
+.Dinsdag {
+    background-color: #252121;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+
+.Woensdag {
+    background-color: #252121;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    height: 60px;
+}
+
+.Donderdag {
+    background-color: #252121;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+
+.Vrijdag {
+    background-color: #252121;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+
+
+.tabel {
+    position: relative;
+    margin-left: 250px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
+
+  
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#textboxid
+{
+    height:55px;
+    font-size:10pt;
+}
+
+.arial { font-family: Arial;}
+.other { font-family: Fantasy;}
+
+.tabel {
+
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 11%;
+    margin-top: 90px;
+}
+
+.cont {
+    
+    width: 100%;
+    height: 800px;
+    padding: 400px;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: -2%;
+    
+
+}
+
+.table {
+    width: 1300px;
+    height: 550px;
+    position: relative;
+    background: var(--white);
+    padding: 2%;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.2);
+    margin-left: 20%;
+    border-radius: 25px;
+    margin-bottom: 45px;
+    margin-top: -15%;
+    margin-left: 5%;
+}
