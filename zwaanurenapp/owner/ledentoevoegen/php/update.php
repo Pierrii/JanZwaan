@@ -38,6 +38,8 @@ if (isset($_GET['id'])) {
 
         
 
+        //eror voor als de gegevens verkeerd zijn ingevud
+
 	if (empty($name)) {
 		header("Location: ../index.php?error=uw naam is ongeldig&$user_data");
 	}else if (empty($email)) {

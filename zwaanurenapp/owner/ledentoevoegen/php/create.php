@@ -16,6 +16,7 @@ if (isset($_POST['create'])) {
 	$user_data = 'name='.$name. 'email='.$email;
 
 
+
 // de errors die worden weergeven als je niks invuld bij naam, wachtwoord en email
 
 
@@ -32,6 +33,13 @@ if (isset($_POST['create'])) {
 
 
 $hased_wachtwoord = password_hash($pw, PASSWORD_DEFAULT);
+
+//$u = "SELECT email FROM login where email='$username'";
+	//$uu = mysqli_query($conn,$u);
+
+//if(mysqli_num_rows($uu) > 0) {
+    //header("location:../logintest.html");
+//}
 
 $sql="INSERT INTO login(name, email, pw) VALUES('$name','$email','$hased_wachtwoord')";
 
