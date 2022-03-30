@@ -1,4 +1,8 @@
 <?php
+// gemaakt door jasper
+?>
+
+<?php
 
 #|--------------------------------------------------------|#
 #|-connectie maken met database-|#
