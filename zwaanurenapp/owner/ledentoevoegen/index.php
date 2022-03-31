@@ -52,7 +52,7 @@
 		   <button type="submit" 
 		          class="btn btn-primary"
 		          name="create">Create</button>
-		    <a href="read.php" class="btn btn-success">overzicht</a>
+		    <a href="read.php" class="btn btn-danger">cancel</a>
 	    </form>
 	</div>
 </body>

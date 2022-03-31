@@ -20,9 +20,9 @@
 			  <thead>
 			    <tr>
 			      <th scope="col">#</th>
-			      <th scope="col">Name</th>
+			      <th scope="col">Naam</th>
 			      <th scope="col">Email</th>
-			      <th scope="col">Actie</th>
+			      <th scope="col">beheer</th>
 			    </tr>
 			  </thead>
 			  <tbody>
