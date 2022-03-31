@@ -51,9 +51,11 @@ if (isset($_GET['id'])) {
 
 //gebruiker gegevens updaten die door een admin worden aangepast 
 
+$hased_wachtwoord = password_hash($pw, PASSWORD_DEFAULT);
+
 
        $sql = "UPDATE login
-               SET name='$name', email='$email', pw='$pw'
+               SET name='$name', email='$email', pw='$hased_wachtwoord'
                WHERE id=$id ";
        $result = mysqli_query($conn, $sql);
        if ($result) {

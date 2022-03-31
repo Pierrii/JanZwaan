@@ -50,9 +50,9 @@
 		   </div>
 
 		   <button type="submit" 
-		          class="btn btn-primary"
-		          name="create">Create</button>
-		    <a href="read.php" class="btn btn-danger">cancel</a>
+		          class="btn btn-success"
+		          name="create">Bevestig</button>
+		    <a href="read.php" class="btn btn-danger">Cancel</a>
 	    </form>
 	</div>
 </body>
